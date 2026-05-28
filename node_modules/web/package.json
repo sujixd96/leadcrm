@@ -3,13 +3,10 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "dev": "vite --host :: --port 3000",
-    "build": "vite build",
-    "start": "vite preview --outDir ../../dist/apps/web --host :: --port 3000",
-    "lint": "eslint . --quiet",
-    "lint:warn": "eslint ."
-  },
+ "scripts": {
+  "dev": "vite --host :: --port 3000",
+  "build": "npx vite build",
+  "preview": "vite preview"},
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
